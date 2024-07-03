@@ -1,0 +1,262 @@
+2024-06-21 15:14:50.565  INFO 3404 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Starting CurrencyExchangeServiceApplication using Java 1.8.0_412 on LAPTOP-ITA2BH6J with PID 3404 (D:\training\zuul-ms-poc\currency-exchange-service\target\classes started by User in D:\training\zuul-ms-poc)
+2024-06-21 15:14:50.566  INFO 3404 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : The following 1 profile is active: "qa"
+2024-06-21 15:14:50.573  INFO 3404 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:14:50.573  INFO 3404 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[default], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:14:50.574  INFO 3404 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:14:50.574  INFO 3404 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[qa], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:14:51.158  INFO 3404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-21 15:14:51.172  INFO 3404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2024-06-21 15:14:51.258  INFO 3404 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ff48fbe-d6ef-31e0-b0c4-8ef18157699d
+2024-06-21 15:14:51.502  INFO 3404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2024-06-21 15:14:51.504  INFO 3404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-21 15:14:51.504  INFO 3404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-06-21 15:14:51.540  INFO 3404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-21 15:14:51.541  INFO 3404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 967 ms
+2024-06-21 15:14:51.701  INFO 3404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-06-21 15:14:51.709  INFO 3404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-06-21 15:14:51.710  INFO 3404 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-21 15:14:51.811  INFO 3404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-21 15:14:51.824  INFO 3404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-21 15:14:51.871  INFO 3404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-21 15:14:51.871  INFO 3404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:14:52.155  WARN 3404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-21 15:14:52.552  WARN 3404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-06-21 15:14:53.221  INFO 3404 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-21 15:14:53.243  INFO 3404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2024-06-21 15:14:53.832  INFO 3404 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Started CurrencyExchangeServiceApplication in 4.192 seconds (JVM running for 3763.005)
+2024-06-21 15:14:53.837  INFO 3404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-21 15:15:18.311  INFO 3404 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-21 15:15:18.780  INFO 3404 --- [Thread-21] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-06-21 15:15:18.849  INFO 3404 --- [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:15:19.062  WARN 3404 --- [Thread-21] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-21 15:15:19.065  INFO 3404 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-06-21 15:15:19.072  INFO 3404 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-06-21 15:15:20.371  INFO 3404 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Starting CurrencyExchangeServiceApplication using Java 1.8.0_412 on LAPTOP-ITA2BH6J with PID 3404 (D:\training\zuul-ms-poc\currency-exchange-service\target\classes started by User in D:\training\zuul-ms-poc)
+2024-06-21 15:15:20.372  INFO 3404 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : The following 1 profile is active: "qa"
+2024-06-21 15:15:20.376  INFO 3404 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:15:20.376  INFO 3404 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[default], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:15:20.376  INFO 3404 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:15:20.376  INFO 3404 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[qa], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:15:20.816  INFO 3404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-21 15:15:20.824  INFO 3404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2024-06-21 15:15:20.888  INFO 3404 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ff48fbe-d6ef-31e0-b0c4-8ef18157699d
+2024-06-21 15:15:20.996  INFO 3404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2024-06-21 15:15:20.997  INFO 3404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-21 15:15:20.997  INFO 3404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-06-21 15:15:21.013  INFO 3404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-21 15:15:21.013  INFO 3404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 637 ms
+2024-06-21 15:15:21.059  INFO 3404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-06-21 15:15:21.062  INFO 3404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-06-21 15:15:21.064  INFO 3404 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-21 15:15:21.131  INFO 3404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-21 15:15:21.138  INFO 3404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-21 15:15:21.166  INFO 3404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-21 15:15:21.166  INFO 3404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:15:21.354  WARN 3404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-21 15:15:21.602  WARN 3404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-06-21 15:15:22.178  INFO 3404 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-21 15:15:22.191  INFO 3404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2024-06-21 15:15:22.779  INFO 3404 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Started CurrencyExchangeServiceApplication in 3.294 seconds (JVM running for 3791.953)
+2024-06-21 15:15:22.783  INFO 3404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-21 15:15:34.172  INFO 3404 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-21 15:15:34.601  INFO 3404 --- [Thread-27] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-06-21 15:15:34.614  INFO 3404 --- [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:15:34.829  WARN 3404 --- [Thread-27] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-21 15:15:34.830  INFO 3404 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-06-21 15:15:34.873  INFO 3404 --- [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-06-21 15:15:35.957  INFO 3404 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Starting CurrencyExchangeServiceApplication using Java 1.8.0_412 on LAPTOP-ITA2BH6J with PID 3404 (D:\training\zuul-ms-poc\currency-exchange-service\target\classes started by User in D:\training\zuul-ms-poc)
+2024-06-21 15:15:35.958 DEBUG 3404 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-06-21 15:15:35.958  INFO 3404 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : The following 1 profile is active: "qa"
+2024-06-21 15:15:35.960  INFO 3404 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:15:35.960  INFO 3404 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[default], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:15:35.961  INFO 3404 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:15:35.961  INFO 3404 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[qa], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:15:36.303  INFO 3404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-21 15:15:36.313  INFO 3404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2024-06-21 15:15:36.376  INFO 3404 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ff48fbe-d6ef-31e0-b0c4-8ef18157699d
+2024-06-21 15:15:36.560  INFO 3404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2024-06-21 15:15:36.561  INFO 3404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-21 15:15:36.561  INFO 3404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-06-21 15:15:36.573  INFO 3404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-21 15:15:36.573  INFO 3404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 612 ms
+2024-06-21 15:15:36.625  INFO 3404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-06-21 15:15:36.625  INFO 3404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-06-21 15:15:36.630  INFO 3404 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-21 15:15:36.693  INFO 3404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-21 15:15:36.699  INFO 3404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-21 15:15:36.720  INFO 3404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-21 15:15:36.721  INFO 3404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:15:36.881  WARN 3404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-21 15:15:37.162  WARN 3404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-06-21 15:15:37.740  INFO 3404 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-21 15:15:37.793  INFO 3404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2024-06-21 15:15:38.281  INFO 3404 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Started CurrencyExchangeServiceApplication in 3.1 seconds (JVM running for 3807.456)
+2024-06-21 15:15:38.285  INFO 3404 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-21 15:15:38.550  INFO 3404 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:15:38.771  WARN 3404 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-21 15:15:38.773  INFO 3404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-06-21 15:15:38.821  INFO 3404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-06-21 15:15:43.782  INFO 9460 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Starting CurrencyExchangeServiceApplication using Java 1.8.0_412 on LAPTOP-ITA2BH6J with PID 9460 (D:\training\zuul-ms-poc\currency-exchange-service\target\classes started by User in D:\training\zuul-ms-poc)
+2024-06-21 15:15:43.784 DEBUG 9460 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-06-21 15:15:43.785  INFO 9460 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : The following 1 profile is active: "qa"
+2024-06-21 15:15:43.855  INFO 9460 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:15:43.855  INFO 9460 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[default], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:15:43.856  INFO 9460 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:15:43.856  INFO 9460 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[qa], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:15:43.859  INFO 9460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-21 15:15:43.859  INFO 9460 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-21 15:15:45.241  INFO 9460 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-21 15:15:45.333  INFO 9460 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interfaces.
+2024-06-21 15:15:45.706  INFO 9460 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ff48fbe-d6ef-31e0-b0c4-8ef18157699d
+2024-06-21 15:15:47.194  INFO 9460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2024-06-21 15:15:47.209  INFO 9460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-21 15:15:47.210  INFO 9460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-06-21 15:15:47.309  INFO 9460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-21 15:15:47.310  INFO 9460 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3451 ms
+2024-06-21 15:15:47.569  INFO 9460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-21 15:15:47.952  INFO 9460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-21 15:15:47.966  INFO 9460 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-21 15:15:48.341  INFO 9460 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-21 15:15:48.471  INFO 9460 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-06-21 15:15:48.717  INFO 9460 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-21 15:15:48.910  INFO 9460 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-21 15:15:49.917  INFO 9460 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-21 15:15:49.933  INFO 9460 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:15:50.605  WARN 9460 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-21 15:15:51.380  WARN 9460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-06-21 15:15:51.936  INFO 9460 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-21 15:15:51.999  INFO 9460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2024-06-21 15:15:52.500  INFO 9460 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Started CurrencyExchangeServiceApplication in 10.684 seconds (JVM running for 11.75)
+2024-06-21 15:16:58.713  INFO 9460 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-21 15:16:59.201  INFO 9460 --- [Thread-1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-06-21 15:16:59.258  INFO 9460 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:16:59.490  WARN 9460 --- [Thread-1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-21 15:16:59.495  INFO 9460 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-21 15:16:59.506  INFO 9460 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-21 15:17:00.561  INFO 9460 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Starting CurrencyExchangeServiceApplication using Java 1.8.0_412 on LAPTOP-ITA2BH6J with PID 9460 (D:\training\zuul-ms-poc\currency-exchange-service\target\classes started by User in D:\training\zuul-ms-poc)
+2024-06-21 15:17:00.564 DEBUG 9460 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-06-21 15:17:00.564  INFO 9460 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : The following 1 profile is active: "qa"
+2024-06-21 15:17:00.565  INFO 9460 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:17:00.565  INFO 9460 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[default], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:17:00.565  INFO 9460 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:17:00.565  INFO 9460 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[qa], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:17:01.163  INFO 9460 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-21 15:17:01.176  INFO 9460 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2024-06-21 15:17:01.274  INFO 9460 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ff48fbe-d6ef-31e0-b0c4-8ef18157699d
+2024-06-21 15:17:01.545  INFO 9460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2024-06-21 15:17:01.545  INFO 9460 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-21 15:17:01.547  INFO 9460 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-06-21 15:17:01.575  INFO 9460 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-21 15:17:01.575  INFO 9460 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1010 ms
+2024-06-21 15:17:01.664  INFO 9460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-06-21 15:17:01.669  INFO 9460 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-06-21 15:17:01.669  INFO 9460 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-21 15:17:01.796  INFO 9460 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-21 15:17:01.803  INFO 9460 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-21 15:17:01.837  INFO 9460 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-21 15:17:01.837  INFO 9460 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:17:02.101  WARN 9460 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-21 15:17:02.586  WARN 9460 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-06-21 15:17:03.228  INFO 9460 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-21 15:17:03.255  INFO 9460 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2024-06-21 15:17:03.768  INFO 9460 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Started CurrencyExchangeServiceApplication in 4.071 seconds (JVM running for 83.019)
+2024-06-21 15:17:03.774  INFO 9460 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-21 15:18:19.512  INFO 9460 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:18:19.530 ERROR 9460 --- [HikariPool-2 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Error thrown while acquiring connection from data source
+
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in exclusive mode; can not open additional connections [90135-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:223) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:199) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.message.DbException.get(DbException.java:188) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.checkSuspended(SessionLocal.java:1240) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.transitionToState(SessionLocal.java:1232) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.engine.SessionLocal.waitIfExclusiveModeEnabled(SessionLocal.java:1480) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.command.Command.executeQuery(Command.java:180) ~[h2-2.1.214.jar:2.1.214]
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:538) ~[h2-2.1.214.jar:2.1.214]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:408) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) [HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) [HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) [HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) [HikariCP-4.0.3.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_412]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_412]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_412]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_412]
+
+2024-06-21 15:18:19.724  WARN 9460 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-21 15:18:19.727  INFO 9460 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-06-21 15:18:19.789  INFO 9460 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-06-21 15:18:24.703  INFO 17956 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Starting CurrencyExchangeServiceApplication using Java 1.8.0_412 on LAPTOP-ITA2BH6J with PID 17956 (D:\training\zuul-ms-poc\currency-exchange-service\target\classes started by User in D:\training\zuul-ms-poc)
+2024-06-21 15:18:24.705 DEBUG 17956 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-06-21 15:18:24.705  INFO 17956 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : The following 1 profile is active: "qa"
+2024-06-21 15:18:24.778  INFO 17956 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:18:24.779  INFO 17956 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[default], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:18:24.779  INFO 17956 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:18:24.779  INFO 17956 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[qa], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:18:24.782  INFO 17956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-21 15:18:24.782  INFO 17956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-21 15:18:26.250  INFO 17956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-21 15:18:26.333  INFO 17956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2024-06-21 15:18:26.718  INFO 17956 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ff48fbe-d6ef-31e0-b0c4-8ef18157699d
+2024-06-21 15:18:28.430  INFO 17956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2024-06-21 15:18:28.442  INFO 17956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-21 15:18:28.442  INFO 17956 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-06-21 15:18:28.558  INFO 17956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-21 15:18:28.558  INFO 17956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3775 ms
+2024-06-21 15:18:28.799  INFO 17956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-21 15:18:29.155  INFO 17956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-21 15:18:29.172  INFO 17956 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-21 15:18:29.519  INFO 17956 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-21 15:18:29.646  INFO 17956 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-06-21 15:18:29.928  INFO 17956 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-21 15:18:30.122  INFO 17956 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-21 15:18:31.085  INFO 17956 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-21 15:18:31.098  INFO 17956 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:18:31.739  WARN 17956 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-21 15:18:32.476  WARN 17956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-06-21 15:18:33.059  INFO 17956 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-21 15:18:33.112  INFO 17956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2024-06-21 15:18:33.565  INFO 17956 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Started CurrencyExchangeServiceApplication in 10.947 seconds (JVM running for 11.898)
+2024-06-21 15:19:32.116  INFO 17956 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:19:32.351  WARN 17956 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-21 15:19:32.353  INFO 17956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-21 15:19:32.398  INFO 17956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-21 15:19:36.974  INFO 7668 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Starting CurrencyExchangeServiceApplication using Java 1.8.0_412 on LAPTOP-ITA2BH6J with PID 7668 (D:\training\zuul-ms-poc\currency-exchange-service\target\classes started by User in D:\training\zuul-ms-poc)
+2024-06-21 15:19:36.975 DEBUG 7668 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-06-21 15:19:36.976  INFO 7668 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : The following 1 profile is active: "qa"
+2024-06-21 15:19:37.052  INFO 7668 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:19:37.052  INFO 7668 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[default], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:19:37.052  INFO 7668 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888
+2024-06-21 15:19:37.052  INFO 7668 --- [restartedMain] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=currency-exchange-service, profiles=[qa], label=null, version=9f458b456e182bdeca4d4d50ac23ea0c4fc7a2b7, state=null
+2024-06-21 15:19:37.057  INFO 7668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-21 15:19:37.057  INFO 7668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-21 15:19:38.630  INFO 7668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-21 15:19:38.719  INFO 7668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2024-06-21 15:19:39.134  INFO 7668 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=9ff48fbe-d6ef-31e0-b0c4-8ef18157699d
+2024-06-21 15:19:40.840  INFO 7668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2024-06-21 15:19:40.851  INFO 7668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-21 15:19:40.852  INFO 7668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-06-21 15:19:40.944  INFO 7668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-21 15:19:40.944  INFO 7668 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3886 ms
+2024-06-21 15:19:41.171  INFO 7668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-21 15:19:41.476  INFO 7668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-21 15:19:41.490  INFO 7668 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-21 15:19:41.822  INFO 7668 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-21 15:19:41.924  INFO 7668 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-06-21 15:19:42.198  INFO 7668 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-21 15:19:42.342  INFO 7668 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-06-21 15:19:43.142  INFO 7668 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-21 15:19:43.156  INFO 7668 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:19:43.756  WARN 7668 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-21 15:19:44.525  WARN 7668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-06-21 15:19:45.019  INFO 7668 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-21 15:19:45.064  INFO 7668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2024-06-21 15:19:45.531  INFO 7668 --- [restartedMain] c.i.c.CurrencyExchangeServiceApplication : Started CurrencyExchangeServiceApplication in 10.828 seconds (JVM running for 11.909)
+2024-06-21 15:21:35.415  INFO 7668 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-21 15:21:35.633  WARN 7668 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
+2024-06-21 15:21:35.636  INFO 7668 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-21 15:21:35.697  INFO 7668 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,42 @@
+<configuration>
+
+    <property name="LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                ${LOG_PATTERN}
+            </pattern>
+        </encoder>
+    </appender>
+
+    <appender name="AOP_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>
+            ./logs/aop-application.log
+        </file>
+        <encoder>
+            <pattern>
+                ${LOG_PATTERN}
+            </pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>
+                ./logs/archive/aop-application-%d{yyyy-MM-dd}-%i.log.zip
+            </fileNamePattern>
+            <maxFileSize>10MB</maxFileSize>
+            <maxHistory>100</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Logger for AOP logs -->
+    <logger name="com.irfan.currencyexchangeservice.aop" level="DEBUG" additivity="false">
+        <appender-ref ref="AOP_FILE" />
+    </logger>
+
+    <!-- Root logger excluding AOP logs from console -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+</configuration>

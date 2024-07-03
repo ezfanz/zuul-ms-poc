@@ -1,0 +1,12 @@
+2024-06-24 13:02:32 [http-nio-8001-exec-1] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-06-24 13:02:32 [http-nio-8001-exec-1] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["USD","MYR"]
+2024-06-24 13:02:32 [http-nio-8001-exec-1] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-06-24 13:02:32 [http-nio-8001-exec-1] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy136: findByFromAndTo() arguments :["USD","MYR"]
+2024-06-24 13:02:32 [http-nio-8001-exec-1] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy136: findByFromAndTo() Response :{"id":10001,"from":"USD","to":"MYR","conversionMultiple":65.00,"port":0}
+2024-06-24 13:02:32 [http-nio-8001-exec-1] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10001,"from":"USD","to":"MYR","conversionMultiple":65.00,"port":8001}
+2024-06-24 13:02:45 [http-nio-8001-exec-3] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-06-24 13:02:45 [http-nio-8001-exec-3] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["USD","MYR"]
+2024-06-24 13:02:45 [http-nio-8001-exec-3] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-06-24 13:02:45 [http-nio-8001-exec-3] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy136: findByFromAndTo() arguments :["USD","MYR"]
+2024-06-24 13:02:45 [http-nio-8001-exec-3] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy136: findByFromAndTo() Response :{"id":10001,"from":"USD","to":"MYR","conversionMultiple":65.00,"port":0}
+2024-06-24 13:02:45 [http-nio-8001-exec-3] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10001,"from":"USD","to":"MYR","conversionMultiple":65.00,"port":8001}
