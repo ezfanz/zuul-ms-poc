@@ -1,12 +1,80 @@
-2024-06-24 13:02:32 [http-nio-8001-exec-1] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
-2024-06-24 13:02:32 [http-nio-8001-exec-1] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["USD","MYR"]
-2024-06-24 13:02:32 [http-nio-8001-exec-1] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
-2024-06-24 13:02:32 [http-nio-8001-exec-1] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy136: findByFromAndTo() arguments :["USD","MYR"]
-2024-06-24 13:02:32 [http-nio-8001-exec-1] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy136: findByFromAndTo() Response :{"id":10001,"from":"USD","to":"MYR","conversionMultiple":65.00,"port":0}
-2024-06-24 13:02:32 [http-nio-8001-exec-1] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10001,"from":"USD","to":"MYR","conversionMultiple":65.00,"port":8001}
-2024-06-24 13:02:45 [http-nio-8001-exec-3] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
-2024-06-24 13:02:45 [http-nio-8001-exec-3] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["USD","MYR"]
-2024-06-24 13:02:45 [http-nio-8001-exec-3] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
-2024-06-24 13:02:45 [http-nio-8001-exec-3] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy136: findByFromAndTo() arguments :["USD","MYR"]
-2024-06-24 13:02:45 [http-nio-8001-exec-3] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy136: findByFromAndTo() Response :{"id":10001,"from":"USD","to":"MYR","conversionMultiple":65.00,"port":0}
-2024-06-24 13:02:45 [http-nio-8001-exec-3] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10001,"from":"USD","to":"MYR","conversionMultiple":65.00,"port":8001}
+2024-07-05 12:46:16 [http-nio-8090-exec-1] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 12:46:16 [http-nio-8090-exec-1] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 12:46:16 [http-nio-8090-exec-1] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 12:46:16 [http-nio-8090-exec-1] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 12:46:16 [http-nio-8090-exec-1] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy144: findByFromAndTo() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":0}
+2024-07-05 12:46:16 [http-nio-8090-exec-1] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":8090}
+2024-07-05 12:58:07 [http-nio-8090-exec-4] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 12:58:07 [http-nio-8090-exec-4] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 12:58:07 [http-nio-8090-exec-4] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 12:58:07 [http-nio-8090-exec-4] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 12:58:07 [http-nio-8090-exec-4] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy144: findByFromAndTo() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":0}
+2024-07-05 12:58:07 [http-nio-8090-exec-4] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":8090}
+2024-07-05 14:13:07 [http-nio-8090-exec-6] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:13:07 [http-nio-8090-exec-6] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 14:13:07 [http-nio-8090-exec-6] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:13:07 [http-nio-8090-exec-6] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 14:13:13 [http-nio-8090-exec-8] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:13:13 [http-nio-8090-exec-8] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 14:13:13 [http-nio-8090-exec-8] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:13:13 [http-nio-8090-exec-8] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 14:13:24 [http-nio-8090-exec-2] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:13:24 [http-nio-8090-exec-2] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 14:13:24 [http-nio-8090-exec-2] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:13:24 [http-nio-8090-exec-2] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 14:14:45 [http-nio-8090-exec-9] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:14:45 [http-nio-8090-exec-9] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 14:14:45 [http-nio-8090-exec-9] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:14:45 [http-nio-8090-exec-9] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 14:15:18 [http-nio-8090-exec-10] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:15:18 [http-nio-8090-exec-10] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["MYR","EUR"]
+2024-07-05 14:15:18 [http-nio-8090-exec-10] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:15:18 [http-nio-8090-exec-10] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["MYR","EUR"]
+2024-07-05 14:18:09 [http-nio-8090-exec-1] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:18:09 [http-nio-8090-exec-1] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 14:18:09 [http-nio-8090-exec-1] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:18:09 [http-nio-8090-exec-1] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 14:18:09 [http-nio-8090-exec-1] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy144: findByFromAndTo() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":0}
+2024-07-05 14:18:09 [http-nio-8090-exec-1] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":8090}
+2024-07-05 14:18:17 [http-nio-8090-exec-2] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:18:17 [http-nio-8090-exec-2] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 14:18:17 [http-nio-8090-exec-2] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:18:17 [http-nio-8090-exec-2] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 14:18:17 [http-nio-8090-exec-2] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy144: findByFromAndTo() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":0}
+2024-07-05 14:18:17 [http-nio-8090-exec-2] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":8090}
+2024-07-05 14:18:37 [http-nio-8090-exec-6] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:18:37 [http-nio-8090-exec-6] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 14:18:37 [http-nio-8090-exec-6] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:18:37 [http-nio-8090-exec-6] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 14:18:37 [http-nio-8090-exec-6] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy144: findByFromAndTo() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":0}
+2024-07-05 14:18:37 [http-nio-8090-exec-6] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":8090}
+2024-07-05 14:20:14 [http-nio-8090-exec-8] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:20:14 [http-nio-8090-exec-8] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 14:20:14 [http-nio-8090-exec-8] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 14:20:14 [http-nio-8090-exec-8] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 14:20:14 [http-nio-8090-exec-8] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy144: findByFromAndTo() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":0}
+2024-07-05 14:20:14 [http-nio-8090-exec-8] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":8090}
+2024-07-05 15:12:20 [http-nio-8090-exec-10] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 15:12:20 [http-nio-8090-exec-10] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 15:12:20 [http-nio-8090-exec-10] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 15:12:20 [http-nio-8090-exec-10] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 15:12:20 [http-nio-8090-exec-10] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy144: findByFromAndTo() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":0}
+2024-07-05 15:12:20 [http-nio-8090-exec-10] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":8090}
+2024-07-05 15:12:25 [http-nio-8090-exec-4] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 15:12:25 [http-nio-8090-exec-4] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 15:12:25 [http-nio-8090-exec-4] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 15:12:25 [http-nio-8090-exec-4] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 15:12:25 [http-nio-8090-exec-4] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy144: findByFromAndTo() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":0}
+2024-07-05 15:12:25 [http-nio-8090-exec-4] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":8090}
+2024-07-05 15:13:33 [http-nio-8090-exec-5] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 15:13:33 [http-nio-8090-exec-5] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 15:13:33 [http-nio-8090-exec-5] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 15:13:33 [http-nio-8090-exec-5] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 15:13:33 [http-nio-8090-exec-5] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy144: findByFromAndTo() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":0}
+2024-07-05 15:13:33 [http-nio-8090-exec-5] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":8090}
+2024-07-05 15:13:44 [http-nio-8090-exec-3] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 15:13:44 [http-nio-8090-exec-3] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() arguments :["EUR","MYR"]
+2024-07-05 15:13:44 [http-nio-8090-exec-3] INFO  c.i.c.aop.LoggingAdvice - Aspect triggered
+2024-07-05 15:13:44 [http-nio-8090-exec-3] INFO  c.i.c.aop.LoggingAdvice - method invoked class com.sun.proxy.$Proxy144: findByFromAndTo() arguments :["EUR","MYR"]
+2024-07-05 15:13:44 [http-nio-8090-exec-3] INFO  c.i.c.aop.LoggingAdvice - class com.sun.proxy.$Proxy144: findByFromAndTo() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":0}
+2024-07-05 15:13:44 [http-nio-8090-exec-3] INFO  c.i.c.aop.LoggingAdvice - class com.irfan.currencyexchangeservice.Controller.CurrencyExchangeController: retrieveExchangeValue() Response :{"id":10002,"from":"EUR","to":"MYR","conversionMultiple":75.00,"port":8090}
